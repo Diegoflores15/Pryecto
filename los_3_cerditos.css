@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.Menu{
+    background-color: rgb(83, 229, 132);
+   
+}
+.BarrMenu{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px;  
+	font-size: 14pt;
+}
+.BarrMenu li{
+    padding: 8px;
+}
+.dropdown-item, .nav-item a{
+    color: black;
+}
+
+.treschanchitos{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+    text-align: center;
+    box-shadow: 15px 15px 10px rgb(56, 17, 226);
+    
+
+}
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-group{
+    padding: 25px;
+    margin: 10px;
+}
+
+.card-img-top{
+    padding: 20px;
+    
+}
+.card-img-top2{
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 5px rgb(117, 114, 114);
+    border: top left radius 20px;
+}
+.card-text5{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+.contenido-footer{
+    text-decoration: none;
+    
+}
+
+.footer-index{
+	background-color: #e3dc7a;
+}
+.PiePag>.contenido-footer{
+	color: black;
+	list-style-type: none;
+}
+.PiePag>h2{
+	font-family:'Times New Roman', Times, serif;
+}
+
+

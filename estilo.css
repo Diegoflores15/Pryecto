@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.Menu{
+    background-color: rgb(83, 229, 132);
+   
+}
+.BarrMenu{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px;  
+	font-size: 14pt;
+}
+.BarrMenu>li{
+    padding: 8px;
+}
+.dropdown-item, .nav-item a{
+    color: black;
+}
+.imagePortada{
+    width: 100%;
+    height: 480px;
+	border-radius: 50px;
+}
+.BodyProduct{
+	background: #dbc7e0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Eslogan>h1{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: black;
+	font-size: 35pt;
+}
+.Eslogan{	
+	text-align: center;
+	padding: 20px;
+	color: white;
+	background-color: rgb(218, 166, 22);
+}
+.contenedor{	
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.ContenidoCuentos{
+	background: #dbc7e0;
+}
+
+.tabla{
+	width: 25%;
+	height: 540px;
+	margin: auto;
+	border: 1px solid #343759;
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px 0px #343759;
+	padding: 40px;
+	text-align: center;
+	flex-grow: 1;
+	color: #343759;
+
+}
+.imagenesF1{
+	height: 300px;
+}
+.tabla>h2{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.tabla>img{
+	border-radius: 30px;
+	width: 330px;
+	margin-bottom: 20px;
+
+}
+.tabla>h3{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.tabla>p{
+	display: block;
+	margin-bottom: 20px;
+}
+.button{
+	display: inline-block;
+	width: 150px;
+	padding: 12px;
+	background: #3280f5;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	margin: auto;
+}
+.tabla:hover{
+	background: rgb(9, 9, 8);
+	color:rgb(255, 253, 248);
+	transition: .5s all;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.footer-index{
+	background-color: #e3dc7a;
+}
+.PiePag>.contenido-footer{
+	color: black;
+	list-style-type: none;
+}
+.PiePag>h2{
+	font-family:'Times New Roman', Times, serif;
+}
